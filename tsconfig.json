@@ -1,0 +1,36 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "module": "commonjs",
+    "lib": [
+      "es2018",
+    ],
+    "moduleResolution": "node",
+    "outDir": "./dist",
+    "strict": true,
+    "noImplicitAny": true,
+    "noFallthroughCasesInSwitch": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "strictNullChecks": true,
+    "strictFunctionTypes": true,
+    "strictPropertyInitialization": true,
+    "forceConsistentCasingInFileNames": true,
+    "noImplicitThis": true,
+    "alwaysStrict": true,
+    "baseUrl": "./",
+    "paths": {
+      "~/*": [
+        "./src/*"
+      ]
+    },
+    "typeRoots": [
+      "node_modules/@types"
+    ],
+    "esModuleInterop": true,
+    "pretty": true,
+    "resolveJsonModule": true,
+    "sourceMap": true 
+  },
+  "include": ["./src/**/*"]
+}
