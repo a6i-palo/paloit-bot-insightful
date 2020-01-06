@@ -4,3 +4,19 @@
 .env
 *.log
 *.lock
+.git-*
+
+
+################
+# os artifacts #
+################
+**/.DS_Store
+
+#################
+# ide artifacts #
+#################
+# vscode
+\.vscode/
+# intellij
+.idea
+*.iml
